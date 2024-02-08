@@ -1,0 +1,2 @@
+for x in $(< pkglist-aur.txt); do paru -S $x; done - for aur
+curl https://raw.githubusercontent.com/maemolol/my-shitty-projects/main/pkglist-repo.txt -o pkglist-repo.txt; sudo pacman -S --needed - < pkglist-repo.txt - for repo packages
